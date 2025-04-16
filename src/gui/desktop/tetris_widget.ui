@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TetrisWidget</class>
+ <widget class="QWidget" name="TetrisWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>435</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="helpButton">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>440</y>
+     <width>138</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(130, 130, 130);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>HELP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pauseButton">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>440</y>
+     <width>138</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(130, 130, 130);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>PAUSE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>440</y>
+     <width>138</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(130, 130, 130);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>QUIT</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="level">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>178</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="score">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>80</y>
+     <width>178</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="high_score">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>178</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="level_label">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>50</y>
+     <width>40</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+   <property name="text">
+    <string>LEVEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="score_label">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>110</y>
+     <width>50</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+   <property name="text">
+    <string>SCORE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="high_score_label_2">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>170</y>
+     <width>50</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+   <property name="text">
+    <string>SCORE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="high_score_label_1">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>155</y>
+     <width>35</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+   <property name="text">
+    <string>HIGH</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="next_label">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>205</y>
+     <width>35</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 59, 0);
+color: rgb(0, 143, 17);</string>
+   </property>
+   <property name="text">
+    <string>NEXT</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
