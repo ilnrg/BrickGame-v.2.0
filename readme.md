@@ -1,7 +1,19 @@
 \mainpage
-> Для работы десктопного интерфейса требуется установить QT:
+> **Для работы десктопного интерфейса требуется установить QT:**
 > - `macOS` - `brew install qt`
 > - `Ubuntu/Debian` - `sudo apt install qt6-base-dev -y && sudo apt install qmake6 -y`
+
+> **Установка:**
+> - `make` или `make install`
+> - `cd build`
+> - `./BrickGame_console` (консольная версия)
+> - `./BrickGame_desktop` (десткопная версия)
+
+> **Удаление:**
+> `make uninstall`
+
+> **Сборка документации по проекту:**
+> `make dvi`
 
 # Тетрис
 ## Реализация игры «Тетрис» на языке С
